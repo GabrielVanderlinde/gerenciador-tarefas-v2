@@ -17,5 +17,189 @@ Nomes das classes: "Main", "GerenciadorDeTarefas", "Tarefas".
 .....................
 
 
-!!   Aqui deveria estar as mensagens de aviso fornecidas pelos desenvolvedores/testes   !!
-!!!  Não foi entregue  !!!
+════════════════════════════════════════════════════════════
+                     MENSAGENS DO SISTEMA
+════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────
+ CLASSE: Main.java
+────────────────────────────────────────────────────────────
+
+ FUNÇÃO: main()
+ ┌─────────────────────────────────────────────────────┐
+ │  MENU PRINCIPAL                                     │
+ │  Exibição: a cada iteração do loop                  │
+ └─────────────────────────────────────────────────────┘
+  → Saída para o usuário:
+      "Gerenciador de Tarefas"
+      "1 - Adicionar tarefa"
+      "2 - Listar tarefas"
+      "3 - Concluir tarefa"
+      "4 - Remover tarefa"
+      "5 - Listar pendentes"
+      "0 - Sair"
+      "Opção: "
+
+ ┌─────────────────────────────────────────────────────┐
+ │  CASE 1 — Adicionar Tarefa                          │
+ │  Entrada de dados solicitada ao usuário             │
+ └─────────────────────────────────────────────────────┘
+  → Prompts de entrada:
+      "Título: "
+      "Descrição: "
+      "Data (formato dd/MM/yyyy): "
+
+ ┌─────────────────────────────────────────────────────┐
+ │  CASE 3 — Concluir Tarefa                           │
+ │  Entrada de dados solicitada ao usuário             │
+ └─────────────────────────────────────────────────────┘
+  → Prompt de entrada:
+      "Adicione o Id da Tarefa: "
+
+ ┌─────────────────────────────────────────────────────┐
+ │  CASE 4 — Remover Tarefa                            │
+ │  Entrada de dados solicitada ao usuário             │
+ └─────────────────────────────────────────────────────┘
+  → Prompt de entrada:
+      "Digite o ID da tarefa para remover: "
+
+ ┌─────────────────────────────────────────────────────┐
+ │  CASE 0 — Sair                                      │
+ │  Encerramento do programa                           │
+ └─────────────────────────────────────────────────────┘
+  → Saída para o usuário:
+      "Encerrando Programa..."
+
+ ┌─────────────────────────────────────────────────────┐
+ │  DEFAULT — Opção inválida                           │
+ │  Quando o usuário digita uma opção fora do menu     │
+ └─────────────────────────────────────────────────────┘
+  → Saída para o usuário:
+      "Opção Inválida!"
+
+
+────────────────────────────────────────────────────────────
+ CLASSE: GerenciadorDeTarefas.java
+────────────────────────────────────────────────────────────
+
+ FUNÇÃO: adicionarTarefa(String titulo, String descricao, String data)
+ ┌─────────────────────────────────────────────────────┐
+ │  UC02 — Adicionar Tarefa                            │
+ └─────────────────────────────────────────────────────┘
+  → Retorno de SUCESSO:
+      "Tarefa adicionada com sucesso!"
+
+  → Retorno de ERRO (data em formato inválido):
+      "Erro ao adicionar tarefa! Formato de Data inválida! Use dd/MM/yyyy."
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: editarTarefa(int id, String novoTitulo, String novaDescricao, String novaData)
+ ┌─────────────────────────────────────────────────────┐
+ │  UC03 — Editar Tarefa                               │
+ └─────────────────────────────────────────────────────┘
+  → Retorno de SUCESSO:
+      " Tarefa editada com sucesso!"
+
+  → Retorno de ERRO (ID não encontrado):
+      " Tarefa não encontrada."
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: listarTarefas()
+ ┌─────────────────────────────────────────────────────┐
+ │  Listagem Geral de Tarefas                          │
+ └─────────────────────────────────────────────────────┘
+  → Retorno quando a lista está VAZIA:
+      "Nenhuma tarefa cadastrada."
+
+  → Retorno quando há tarefas (cabeçalho e separadores):
+      "===== LISTA DE TAREFAS ====="
+      "-----------------------------"
+      [exibe cada tarefa via toString() de Tarefas.java]
+      "-----------------------------"
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: concluirTarefa(int id)
+ ┌─────────────────────────────────────────────────────┐
+ │  UC05 — Concluir Tarefa                             │
+ └─────────────────────────────────────────────────────┘
+  → Retorno de SUCESSO:
+      " Tarefa concluída!"
+
+  → Retorno de ERRO (ID não encontrado):
+      " Tarefa não encontrada."
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: removerTarefa(int id)
+ ┌─────────────────────────────────────────────────────┐
+ │  UC04 — Remover Tarefa                              │
+ └─────────────────────────────────────────────────────┘
+  → Retorno quando a lista está VAZIA:
+      " Nenhuma tarefa para remover."
+
+  → Retorno de SUCESSO:
+      " Tarefa removida com sucesso."
+
+  → Retorno de ERRO (ID não encontrado):
+      " Tarefa não encontrada."
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: listarPendentes()
+ ┌─────────────────────────────────────────────────────┐
+ │  Listagem de Tarefas Pendentes                      │
+ └─────────────────────────────────────────────────────┘
+  → Retorno quando não há pendentes:
+      "Não há tarefas pendentes."
+
+  → Retorno quando há pendentes (cabeçalho e separadores):
+      "===== TAREFAS PENDENTES ====="
+      "-----------------------------"
+      [exibe cada tarefa pendente via toString() de Tarefas.java]
+      "-----------------------------"
+
+
+────────────────────────────────────────────────────────────
+ CLASSE: Tarefas.java
+────────────────────────────────────────────────────────────
+
+ FUNÇÃO: setTitulo(String titulo)
+ ┌─────────────────────────────────────────────────────┐
+ │  Validação — Setter de Título                       │
+ └─────────────────────────────────────────────────────┘
+  → Retorno de ERRO (título nulo ou em branco):
+      IllegalArgumentException: "Título não pode ficar em branco!."
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: setData(LocalDate data)
+ ┌─────────────────────────────────────────────────────┐
+ │  Validação — Setter de Data                         │
+ └─────────────────────────────────────────────────────┘
+  → Retorno de ERRO (data nula):
+      IllegalArgumentException: "Data não pode ficar em branco"
+
+ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+ FUNÇÃO: toString()
+ ┌─────────────────────────────────────────────────────┐
+ │  Exibição da Tarefa                                 │
+ │  Chamada por listarTarefas() e listarPendentes()    │
+ └─────────────────────────────────────────────────────┘
+  → Status possíveis:
+      "[TAREFA CONCLUÍDA]"
+      "[TAREFA PENDENTE]"
+
+  → Formato completo exibido:
+      "[STATUS] ID: {id} | {titulo} | {descricao} | Data: {dd/MM/yyyy}"
+
+  → Exemplo de saída:
+      "[TAREFA PENDENTE] ID: 1 | Estudar Java | Revisar collections | Data: 30/04/2025"
+      "[TAREFA CONCLUÍDA] ID: 2 | Reunião | Apresentar projeto | Data: 15/04/2025"
+
+
+════════════════════════════════════════════════════════════
