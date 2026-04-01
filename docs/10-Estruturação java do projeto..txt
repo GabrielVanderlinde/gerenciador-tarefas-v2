@@ -1,0 +1,21 @@
+Estruturação java do projeto.
+
+Nome do projeto:   "GerenciadorDeTarefas"
+Nomes das classes: "Main", "GerenciadorDeTarefas", "Tarefas".
+
+
+* Gerenciador-De-Tarefas
+|------ * src/main
+	|-------- * Main.java
+	|-------- * GerenciadorDeTarefas.java
+	|-------- * Tarefas.java
+
+
+
+
+.....................
+.....................
+
+
+!!   Aqui deveria estar as mensagens de aviso fornecidas pelos desenvolvedores/testes   !!
+!!!  Não foi entregue  !!!

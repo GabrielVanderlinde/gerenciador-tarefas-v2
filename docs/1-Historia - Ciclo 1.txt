@@ -1,0 +1,27 @@
+Historia
+
+objetivo: Receber os requisitos do cliente, identificando riscos e preparando o primeiro ciclo da espiral.
+
+
+Cena 1 – O encontro inicial
+Você está sentado em uma sala de reuniões simples, com seu caderno de anotações aberto. O cliente chega animado, mas também preocupado com a organização da empresa dele.
+Cliente:
+“Olha, nossa equipe está crescendo e estamos perdendo o controle das tarefas. Eu preciso de um sistema simples, rodando no console, que ajude a organizar isso. Quero algo que permita adicionar tarefas, marcar como concluídas, visualizar todas, remover quando necessário e, claro, encerrar o programa quando não for mais usado.”
+Você (ponte):
+“Entendi perfeitamente. Então o escopo inicial é um gerenciador de tarefas com essas cinco funções principais. Vou documentar cada detalhe e repassar para a equipe de desenvolvimento. Assim, no primeiro ciclo da espiral, já teremos uma versão funcional que contempla tudo o que você pediu.”
+
+Cena 2 – Identificação de riscos
+Você continua a conversa, mas agora focado em riscos.
+Você:
+“Antes de começar a programar, precisamos pensar nos riscos. Por exemplo: e se alguém digitar uma opção inválida no menu? Ou tentar remover uma tarefa quando a lista estiver vazia? Também pode acontecer de escolher um número de tarefa que não existe. E claro, precisamos evitar que o programa trave.”
+Cliente:
+“Sim, isso faz sentido. Eu não tinha pensado nesses detalhes, mas é importante. Então vocês vão planejar soluções para cada risco antes de codificar?”
+Você:
+“Exatamente. Esse é o coração do modelo espiral: planejar, analisar riscos, implementar e avaliar. No primeiro ciclo, vamos entregar uma versão inicial com tudo funcionando. No segundo ciclo, vamos ajustar e refinar com base no seu feedback.”
+
+Cena 3 – Encerramento da reunião
+O cliente sorri, aliviado.
+Cliente:
+“Ótimo, fico tranquilo sabendo que vocês estão cuidando tanto da parte técnica quanto da segurança do sistema. Estou ansioso para ver a primeira versão.”
+Você:
+“Pode deixar. Vou documentar tudo e garantir que a equipe de desenvolvimento receba suas necessidades de forma clara. Assim, no segundo ciclo, já teremos os ajustes finais e a entrega pronta.”

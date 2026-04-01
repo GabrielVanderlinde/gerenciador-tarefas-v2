@@ -1,0 +1,79 @@
+Integrantes da Equipe
+
+
+
+1. Composição da Equipe do Projeto
+
+   * Modelo de Desenvolvimento: Espiral
+
+O projeto é desenvolvido por uma equipe composta por sete integrantes, organizada conforme as atividades previstas no Modelo Espiral, abrangendo planejamento, documentação, modelagem, desenvolvimento e testes. As funções foram distribuídas para garantir clareza nas responsabilidades e suporte adequado a cada fase do processo de desenvolvimento.
+
+
+   * Integrantes do Projeto:
+
+     - Gabriel Henrique Vanderlinde
+     - Matheus Ramos Bagattoli
+     - Jonathan Rafael Schmitt
+     - Victória Ciglinde Kozloski
+     - João Pedro do Nascimento Morais
+     - Yasmin Maçaneiro de Sousa
+     - Camilly Xavier de Souza
+
+
+1.2 Estrutura Funcional da Equipe
+
+De acordo com o Modelo Espiral, a equipe foi dividida em dois grupos funcionais principais: Planejamento e Documentação e Desenvolvimento e Testes.
+
+1.2.1 Planejamento, Documentação e Modelagem
+
+Este grupo é responsável pela condução metodológica do projeto, gestão da documentação, definição e complementação de requisitos, além da elaboração de diagramas e modelos necessários para o entendimento e evolução do sistema.
+
+
+   * Product Owner (PO) e Gestor da Documentação do Projeto:
+     - Jonathan Rafael Schmitt
+
+Responsável por gerenciar integralmente a documentação do projeto, assegurando sua formalização, padronização e atualização ao longo dos ciclos do modelo espiral. Atua também na consolidação das informações do projeto, garantindo alinhamento entre objetivos, requisitos e entregas, além de manter a comunicação estruturada com o cliente.
+
+
+   * Analista de Requisitos e Complementação Documental:
+     - Matheus Ramos Bagattoli
+Responsável pela complementação e detalhamento da documentação técnica, com foco na definição e especificação de requisitos funcionais e não funcionais, bem como na elaboração e manutenção de diagramas de apoio ao entendimento do sistema.
+
+
+   * Analista de Casos de Uso e Modelagem:
+     - Yasmin Maçaneiro de Sousa
+Responsável pela definição, documentação e detalhamento dos casos de uso do sistema, assim como pela elaboração dos respectivos diagramas, atuando como representante do cliente dentro do projeto e validando os fluxos funcionais propostos.
+
+
+1.2.2 Desenvolvimento e Testes
+
+Este grupo é responsável pela implementação técnica do sistema e pela realização das atividades de teste, garantindo que o software esteja em conformidade com os requisitos especificados e validado conforme os critérios definidos.
+
+
+   * Desenvolvedor 1 (Dev 1):
+     - Gabriel Henrique Vanderlinde
+Responsável pelo desenvolvimento das funcionalidades principais do sistema, participando ativamente da implementação da lógica de negócio e estrutura geral da aplicação.
+
+
+   * Desenvolvedora 2 (Dev 2):
+     - Camilly Xavier de Souza
+Responsável pelo desenvolvimento de funcionalidades complementares do sistema, colaborando com a implementação de requisitos e apoio às atividades de integração.
+
+
+   * Desenvolvedora 3 / Testadora (Testes do Sistema):
+     - Victória Ciglinde Kozloski
+Responsável pelas atividades de teste do sistema, incluindo testes funcionais e validação dos requisitos implementados, garantindo o correto funcionamento das funcionalidades desenvolvidas.
+
+
+   * Desenvolvedora 4 / Testador (Testes do Sistema):
+     - João Pedro do Nascimento Morais
+Responsável pela execução de testes adicionais, apoio na validação do sistema e identificação de falhas, contribuindo para a verificação da qualidade e estabilidade da aplicação.
+
+
+1.3 Considerações sobre a Distribuição de Funções
+
+A distribuição das funções visa organizar as atividades do projeto, assegurando documentação consistente, definição adequada de requisitos, desenvolvimento do sistema e validação por meio de testes. A equipe atua de forma colaborativa, mantendo alinhamento com os princípios do Modelo Espiral e com as necessidades do projeto.
+
+
+
+

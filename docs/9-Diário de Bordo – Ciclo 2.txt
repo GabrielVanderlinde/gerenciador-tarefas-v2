@@ -1,0 +1,28 @@
+ciclo 2
+
+Diário de Bordo – Ciclo 2 (Mensagens e Documentação Final)
+Data: [coloque a data da segunda reunião]
+Local: Sala de reuniões / teste do sistema
+Participantes: Cliente responsável + Eu (ponte entre cliente e equipe)
+
+Observações gerais
+- Cliente testou a versão inicial entregue no Ciclo 1.
+- Sugeriu ajustes apenas nas mensagens exibidas ao usuário (interface textual).
+- Reforçou a necessidade de documentação final para entrega.
+
+Anotações sobre ajustes
+- Revisar mensagens de erro para entradas inválidas, tornando-as mais claras e úteis.
+- Ajustar mensagens de sucesso para maior objetividade e consistência.
+- Padronizar interface textual para evitar ambiguidades.
+
+Planejamento do Ciclo 2
+- Refinar mensagens positivas e negativas conforme regras de negócio.
+- Garantir consistência e clareza na comunicação com o usuário.
+- Preparar documentação final do projeto com registro das alterações realizadas.
+- Implantar versão revisada para validação do cliente.
+
+Encerramento da reunião
+- Cliente confiante de que ajustes de mensagens resolverão os problemas de comunicação.
+- Equipe inicia refinamento textual e organização da documentação.
+- Eu registro que o escopo foi cumprido e riscos mitigados.
+- Projeto pronto para entrega final documentada e implantada.

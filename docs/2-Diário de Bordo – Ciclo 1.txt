@@ -1,0 +1,35 @@
+Diário de Bordo – Ciclo 1 (Reunião Inicial)
+Data: 13/03/2026
+Local: Sala de reuniões da empresa
+Participantes: Cliente(Henrique) + PO(Jonathan) 
+
+
+Observações gerais
+- Cliente trouxe a necessidade de um sistema simples de gerenciamento de tarefas.
+- O sistema deve rodar no console, sem interface gráfica.
+- Escopo inicial já definido: funcionalidades básicas para controle de tarefas.
+
+Anotações sobre requisitos
+- Adicionar uma tarefa.
+- Marcar tarefa como concluída.
+- Visualizar todas as tarefas.
+- Remover uma tarefa.
+- Encerrar o programa.
+
+Identificação de riscos
+- Entrada inválida do usuário → necessidade de validação.
+- Remoção de tarefa em lista vazia → verificar antes de executar.
+- Numeração incorreta de tarefas → validar índice informado.
+- Travamento do programa → implementar tratamento de exceções.
+
+Planejamento do Ciclo 1
+- Entregar versão inicial funcional com todas as operações.
+- Documentar riscos e soluções propostas.
+- Garantir que cliente possa testar e validar o escopo completo.
+
+Encerramento da reunião
+- Cliente satisfeito com o planejamento inicial.
+- Próximo passo: equipe de desenvolvimento inicia implementação.
+- Eu ficarei responsável por acompanhar e documentar feedback para o Ciclo 2.
+
+

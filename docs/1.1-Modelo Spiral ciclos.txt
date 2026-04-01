@@ -1,0 +1,55 @@
+Modelo Spiral ciclos: (2 ciclos para fechar o exercício).
+
+Ciclo 1 – Escopo Inicial do projeto para equipe.
+
+1. Planejamento estrutural da equipe: ( obs. precisa incluir nomes )
+
+* Regras de negócio: validar entradas, impedir remoção em lista vazia, garantir numeração correta.
+* Casos de uso: adicionar tarefa, concluir tarefa, listar tarefas, remover tarefa, encerrar programa.
+* Diagramas: caso de uso e fluxo básico das operações.
+* Funções da equipe:
+	- Cliente → fornece requisitos.
+	- Ponte (PO - Jonathan) → documenta e traduz requisitos.
+	- Equipe de desenvolvimento → implementa funcionalidades.
+	- Equipe de testes → valida funcionamento.
+
+
+1.1 Planejamento do projeto
+
+Objetivo: entregar uma versão funcional básica que contemple todas as funções principais.
+
+- Funcionalidades previstas:
+- Adicionar tarefa
+- Marcar tarefa como concluída
+- Visualizar todas as tarefas
+- Remover tarefa
+- Encerrar programa
+
+
+2. Análise de Riscos
+
+- Entrada inválida do usuário
+	- Mitigação: validar entrada e rejeitar opções inválidas.
+- Remover tarefa quando a lista está vazia
+	- Mitigação: verificar se há tarefas antes de remover.
+- Numeração incorreta de tarefas
+	- Mitigação: validar índice e informar erro ao usuário.
+- Travamento do programa
+	- Mitigação: implementar tratamento de exceções e testes prévios.
+
+
+3. Implementação
+
+- Equipe desenvolve versão inicial com todas as operações.
+- PO garante que requisitos do cliente estejam claros e documentados.
+
+
+4. Avaliação
+
+- Cliente testa funcionalidades básicas.
+- Feedback coletado sobre problemas e melhorias.
+- Documentação registra pontos fortes e ajustes necessários.
+
+Resultado esperado: versão inicial funcional, escopo completo implementado, riscos identificados e mitigados parcialmente.
+
+

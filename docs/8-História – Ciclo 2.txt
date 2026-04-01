@@ -1,0 +1,33 @@
+História – Ciclo 2 (Ajustes e Entrega Final)
+
+Cena 1 – Avaliação da primeira versão
+Você está novamente na sala de reuniões. O cliente chega trazendo suas anotações após testar a versão inicial entregue no Ciclo 1.
+Cliente:
+“Gostei muito de ver o sistema funcionando. Consegui adicionar, concluir, listar e remover tarefas sem problemas. Mas percebi que algumas mensagens poderiam ser mais claras. Por exemplo, quando erro ao digitar uma opção, a mensagem não explica direito o que aconteceu. Também acho que as mensagens de sucesso poderiam ser mais diretas e amigáveis.”
+Você (ponte):
+“Ótimo feedback. Então, neste segundo ciclo, vamos focar em melhorar a interface textual. Vamos revisar todas as mensagens, tanto as positivas quanto as de erro, para que fiquem mais fáceis de entender e transmitam exatamente o que está acontecendo.”
+
+Cena 2 – Ajustes e refinamento
+Você explica como a equipe vai trabalhar:
+Você:
+“Vamos padronizar as mensagens de sucesso, deixando-as objetivas e acolhedoras. E para os erros, vamos detalhar melhor o motivo e orientar o usuário sobre como corrigir. Assim, o sistema não só funciona, mas também comunica de forma clara e útil.”
+Cliente:
+“Isso é exatamente o que eu queria. Um sistema simples, mas que fale a língua do usuário. Se alguém erra, precisa entender o porquê e como resolver. Se acerta, merece uma mensagem positiva que confirme a ação.”
+....................
+....................
+Enquanto isso:
+Retorno ao desenvolvimento com o feedback do cliente.
+Implantação das melhorias.
+Devolvendo aplicação ajustada e finalizada.
+....................
+....................
+Cena 3 – Entrega final
+Após os ajustes, você apresenta a versão revisada. O cliente testa novamente e sorri satisfeito.
+Cliente:
+“Agora sim! As mensagens estão claras, tanto nos acertos quanto nos erros. Isso facilita muito o uso e evita confusões. O sistema está pronto para ser usado pela minha equipe.”
+Você (ponte):
+“Fico feliz que tenha atendido suas expectativas. Documentamos todas as alterações e entregamos a versão final com as mensagens revisadas. Assim, sua equipe terá um sistema funcional e bem comunicado.”
+Cliente:
+“Excelente trabalho. Obrigado pelo cuidado em ouvir minhas sugestões e transformar em melhorias. O sistema está simples, direto e atende exatamente o que eu precisava.”
+
+
