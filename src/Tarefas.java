@@ -43,12 +43,9 @@ public class Tarefas {
     }
 
     // Setters para edição
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public void setTitulo(String titulo) {
-        if(titulo == null || titulo.isBlank()) {
+        if (titulo == null || titulo.isBlank()) {
             throw new IllegalArgumentException("Título não pode ficar em branco!.");
         }
         this.titulo = titulo;
@@ -59,7 +56,7 @@ public class Tarefas {
     }
 
     public void setData(LocalDate data) {
-        if(data == null ){
+        if (data == null) {
             throw new IllegalArgumentException("Data não pode ficar em branco");
         }
         this.data = data;
@@ -71,11 +68,11 @@ public class Tarefas {
 
     @Override
     public String toString() {
-        String status = concluida ? "[TAREFAS CONCLUÍDAS]" : "[TAREFAS PENDENTES]";
+        String status = concluida ? "[TAREFA CONCLUÍDA]" : "[TAREFA PENDENTE]";
         String dataFormatada = data.format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         return status + " ID: " + id +
                 " | " + titulo +
                 " | " + descricao +
-                " | Data: " + data;
+                " | Data: " + dataFormatada;
     }
 }
