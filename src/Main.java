@@ -8,6 +8,7 @@ public class Main {
 
         int opcao;
 
+        // Loop do menu (executa até o usuário escolher sair).
         do {
             System.out.println("Gerenciador de Tarefas");
             System.out.println("1 - Adicionar tarefa");
@@ -20,8 +21,9 @@ public class Main {
             opcao = input.nextInt();
             input.nextLine();
 
+            // Estrutura de decisão baseada na opção escolhida.
             switch (opcao) {
-                case 1:
+                case 1:// UC02 - adicionar tarefas.
                     System.out.print("Título: ");
                     String titulo = input.nextLine();
                     System.out.print("Descrição: ");
@@ -30,28 +32,29 @@ public class Main {
                     String data = input.nextLine();
                     gerenciador.adicionarTarefa(titulo, descricao, data);
                     break;
-                case 2:
-                    gerenciador.listarTarefas();
+                case 2:// listar tarefas.
+                    gerenciador.listarTarefas();// Mostra tarefas antes de editar.
                     break;
-                case 3:
+                case 3:// UC03 - Editar tarefa
                     System.out.println("Adicione o Id da Tarefa: ");
                     gerenciador.concluirTarefa(Integer.parseInt(input.nextLine()));
                     break;
-                case 4:
+                case 4:// UC05 - Concluir tarefa.
                     System.out.println("Digite o ID da tarefa para remover: ");
                     gerenciador.removerTarefa(Integer.parseInt(input.nextLine()));
                     break;
-                case 5:
+                case 5:// UC04 - Remover tarefa.
                     gerenciador.listarPendentes();
                     break;
-                case 0:
+                case 0:// Encerrar o programa.
                     System.out.println("Encerrando Programa...");
                     break;
                 default:
+                    // Caso o usuário digite uma opção invalida.
                     System.out.println("Opção Inválida!");
             }
 
-        } while (opcao != 0);
+        } while (opcao != 0); // Continua até escolher sair.
 
 
         input.close();

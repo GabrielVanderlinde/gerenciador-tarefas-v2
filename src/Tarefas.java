@@ -2,17 +2,20 @@ import java.time.LocalDate;
 
 public class Tarefas {
 
+    // Atributos
     private int id;
     private String titulo;
     private String descricao;
     private LocalDate data;
     private boolean concluida;
 
+    // Construtor
     public Tarefas(int id, String titulo, String descricao, LocalDate data) {
         this.id = id;
         this.titulo = titulo;
         this.descricao = descricao;
         this.data = data;
+        // Por padrão, toda tarefa começa como não concluída.
         this.concluida = false;
     }
 
@@ -66,6 +69,7 @@ public class Tarefas {
         this.concluida = concluida;
     }
 
+    // toString - Define como a tarefa será exibida ao imprimir o objeto.
     @Override
     public String toString() {
         String status = concluida ? "[TAREFA CONCLUÍDA]" : "[TAREFA PENDENTE]";
