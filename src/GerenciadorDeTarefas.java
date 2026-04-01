@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,8 +10,16 @@ public class GerenciadorDeTarefas {
 
     // UC02 - Adicionar tarefa
     public void adicionarTarefa(String titulo, String descricao, String data) {
-        listaDeTarefas.add(new Tarefas(proximoId++, titulo, descricao, data));
-        System.out.println("\n✔ Tarefa adicionada com sucesso!");
+        try {
+            //Formatador de Data
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+            //Converter Texto para Data
+            LocalDate dataConvertida = LocalDate.parse(data, dtf);
+            listaDeTarefas.add(new Tarefas(proximoId++, titulo, descricao, dataConvertida));
+            System.out.println("Tarefa adicionada com sucesso!");
+        } catch (Exception e) {
+            System.out.println("Erro ao adicionar tarefa! Formato de Data inválida! Use dd/MM/yyyy.");
+        }
     }
 
     // UC03 - Editar tarefa
@@ -18,10 +28,11 @@ public class GerenciadorDeTarefas {
         if (tarefa != null) {
             tarefa.setTitulo(novoTitulo);
             tarefa.setDescricao(novaDescricao);
-            tarefa.setData(novaData);
-            System.out.println("\n✔ Tarefa editada com sucesso!");
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+            tarefa.setData(LocalDate.parse(novaData, dtf));
+            System.out.println("\n Tarefa editada com sucesso!");
         } else {
-            System.out.println("\n✘ Tarefa não encontrada.");
+            System.out.println("\n Tarefa não encontrada.");
         }
     }
 
@@ -44,23 +55,23 @@ public class GerenciadorDeTarefas {
         Tarefas tarefa = buscarPorId(id);
         if (tarefa != null) {
             tarefa.marcarComoConcluida();
-            System.out.println("\n✔ Tarefa concluída!");
+            System.out.println("\n Tarefa concluída!");
         } else {
-            System.out.println("\n✘ Tarefa não encontrada.");
+            System.out.println("\n Tarefa não encontrada.");
         }
     }
 
     // UC04 - Excluir tarefa
     public void removerTarefa(int id) {
         if (listaDeTarefas.isEmpty()) {
-            System.out.println("\n✘ Nenhuma tarefa para remover.");
+            System.out.println("\n Nenhuma tarefa para remover.");
             return;
         }
         boolean removida = listaDeTarefas.removeIf(t -> t.getId() == id);
         if (removida) {
-            System.out.println("\n✔ Tarefa removida com sucesso.");
+            System.out.println("\n Tarefa removida com sucesso.");
         } else {
-            System.out.println("\n✘ Tarefa não encontrada.");
+            System.out.println("\n Tarefa não encontrada.");
         }
     }
 
